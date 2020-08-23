@@ -1,0 +1,9 @@
+.button-props-selection {
+  display: flex;
+  max-width: 500px;
+  margin-bottom: 10px;
+}
+
+.button-props-selection > *:not(:last-child) {
+  margin-right: 20px;
+}
