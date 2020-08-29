@@ -2,9 +2,10 @@
   "name": "tapsi-components",
   "version": "1.0.3",
   "description": "",
-  "main": "./index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "build": "babel . -d dist"
   },
   "repository": {
     "type": "git",
@@ -30,5 +31,12 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-jsonschema-form": "^1.8.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4"
   }
 }

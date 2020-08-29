@@ -6,7 +6,7 @@ import Modal from "./Modal";
 import TextField from "./TextField";
 
 export {
-    AutoCoxmplete,
+    AutoComplete,
     Button,
     CheckBox,
     DateTime,
