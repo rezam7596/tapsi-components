@@ -4,7 +4,7 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import moment from 'moment-jalaali';
 import { Popover } from '@material-ui/core';
 import Calendar from './ReactDatePicker2--customized';
-import { convertEnglishNumberToPersianNumber } from '../../utils';
+import { convertEnglishNumberToPersianNumber } from '../utils';
 import style from './DateTime.scss';
 import TextField from '../TextField';
 

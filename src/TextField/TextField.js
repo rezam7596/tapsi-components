@@ -5,7 +5,7 @@ import { FormControl, InputLabel, InputBase, FormHelperText, InputAdornment, Ico
 import CircularProgress from '@material-ui/core/CircularProgress';
 import ClearIcon from '@material-ui/icons/Clear';
 import style from './TextField.scss';
-import { removeNonNumbers, convertPersianNumberToEnglishNumber } from '../../utils';
+import { removeNonNumbers, convertPersianNumberToEnglishNumber } from '../utils';
 import { TextFieldThemes } from './constants';
 
 const setValueOfEvent = (event, value) => {
