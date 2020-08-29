@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "build": "babel . -d dist"
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",

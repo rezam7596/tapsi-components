@@ -19,7 +19,7 @@ var _ArrowDropDown = _interopRequireDefault(require("@material-ui/icons/ArrowDro
 
 var _Clear = _interopRequireDefault(require("@material-ui/icons/Clear"));
 
-var _TextField = _interopRequireDefault(require("../TextField/TextField"));
+var _TextField = _interopRequireDefault(require("../TextField"));
 
 var _constants = require("../TextField/constants");
 

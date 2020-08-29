@@ -19,7 +19,7 @@ var _Clear = _interopRequireDefault(require("@material-ui/icons/Clear"));
 
 var _TextField = _interopRequireDefault(require("./TextField.scss"));
 
-var _utils = require("../utils");
+var _utils = require("../../utils");
 
 var _constants = require("./constants");
 
