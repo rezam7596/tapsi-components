@@ -1,0 +1,163 @@
+.shared-component-button:not(:root) {
+  position: relative;
+  box-shadow: none;
+  font-family: inherit;
+
+  &:hover {
+    box-shadow: none;
+  }
+
+  &[disabled] {
+    opacity: 0.4;
+  }
+
+  &.theme-1 {
+    background-color: #2266f4;
+    color: #fff;
+
+    &:hover {
+      background-color: #0049e6;
+    }
+
+    &.shared-components-button-outlined {
+      background-color: #fff;
+      border-color: #2266f4;
+      color: #2266f4;
+
+      &:hover {
+        background-color: #d1daf0;
+      }
+    }
+
+    &.shared-components-button-text {
+      color: #2266f4;
+    }
+  }
+
+  &.theme-2 {
+    background-color: #f00;
+    color: #fff;
+
+    &:hover {
+      background-color: #e60000;
+    }
+
+    &.shared-components-button-outlined {
+      background-color: #fff;
+      border-color: #f00;
+      color: #f00;
+
+      &:hover {
+        background-color: #e6c3c3;
+      }
+    }
+
+    &.shared-components-button-text {
+      color: #f00;
+    }
+  }
+
+  &.theme-3 {
+    background-color: #000;
+    color: #fff;
+
+    &:hover {
+      background-color: #bbb;
+    }
+
+    &.shared-components-button-outlined {
+      background-color: #fff;
+      border-color: #000;
+      color: #000;
+
+      &:hover {
+        background-color: #bbb;
+      }
+    }
+
+    &.shared-components-button-text {
+      color: #000;
+    }
+  }
+
+  &.theme-4 {
+    background-color: #d1daf0;
+    color: #2266f4;
+
+    &:hover {
+      background-color: #bbc9ed;
+    }
+
+    &.shared-components-button-outlined {
+      background-color: #2266f4;
+      border-color: #d1daf0;
+      color: #d1daf0;
+
+      &:hover {
+        background-color: #0049e6;
+      }
+    }
+
+    &.shared-components-button-text {
+      color: #d1daf0;
+    }
+  }
+
+  &.theme-5 {
+    background-color: #238f82;
+    color: #fff;
+
+    &:hover {
+      background-color: #508f8a;
+    }
+
+    &.shared-components-button-outlined {
+      background-color: #fff;
+      border-color: #238f82;
+      color: #238f82;
+
+      &:hover {
+        background-color: #fff;
+      }
+    }
+
+    &.shared-components-button-text {
+      color: #238f82;
+    }
+  }
+
+  &.backoffice-crm {
+    background-color: #47bacc;
+    color: #fff;
+
+    &:hover {
+      background-color: #3a99a8;
+    }
+
+    &.shared-components-button-outlined {
+      background-color: #fff;
+      border-color: #47bacc;
+      color: #47bacc;
+
+      &:hover {
+        background-color: #fff;
+      }
+    }
+
+    &.shared-components-button-text {
+      color: #47bacc;
+    }
+  }
+
+  &.shared-components-button-text {
+    background-color: unset;
+
+    &:hover {
+      background-color: unset;
+    }
+  }
+
+  .shared-component-button-loading {
+    position: absolute;
+  }
+}

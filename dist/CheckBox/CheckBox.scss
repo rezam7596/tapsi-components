@@ -1,0 +1,25 @@
+.shared-component-check-box {
+  span {
+    font-family: inherit;
+  }
+
+  &:not([class*=disabled]) {
+    &.theme-1 {
+      svg {
+        color: #1976d2;
+      }
+    }
+
+    &.theme-2 {
+      svg {
+        color:  #000;
+      }
+    }
+
+    &.theme-3 {
+      svg {
+        color: #238f82;
+      }
+    }
+  }
+}
