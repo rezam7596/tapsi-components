@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import { Button as MuiButton, CircularProgress } from '@material-ui/core';
 import style from './Button.scss';
 import * as constants from './constants';
@@ -56,4 +55,4 @@ Button.defaultProps = {
   classes: {},
 };
 
-export default withStyles(style)(Button);
+export default Button;

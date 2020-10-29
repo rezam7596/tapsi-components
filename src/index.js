@@ -13,3 +13,12 @@ export {
     Modal,
     TextField,
 }
+
+export default {
+    AutoComplete,
+    Button,
+    CheckBox,
+    DateTime,
+    Modal,
+    TextField,
+}

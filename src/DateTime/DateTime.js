@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import moment from 'moment-jalaali';
 import { Popover } from '@material-ui/core';
 import Calendar from './ReactDatePicker2--customized';
@@ -142,4 +141,4 @@ DateTime.defaultProps = {
   showToggleCalenderTypeButton: false,
 };
 
-export default withStyles(style)(DateTime);
+export default DateTime;

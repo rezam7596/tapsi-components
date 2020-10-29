@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import { FormControl, InputLabel, InputBase, FormHelperText, InputAdornment, IconButton } from '@material-ui/core';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import ClearIcon from '@material-ui/icons/Clear';
@@ -170,4 +169,4 @@ TextField.defaultProps = {
   required: false,
 };
 
-export default withStyles(style)(TextField);
+export default TextField;

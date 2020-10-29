@@ -1,8 +1,15 @@
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import style from './style.min.css';
 import momentJalaali from 'moment-jalaali';
+import style from './style.min.css';
 import Calendar from './components/DatePicker';
 
 momentJalaali.loadPersian({ dialect: 'persian-modern' });
 
-export default withStyles(style)(Calendar);
+export default Calendar;
+
+/* packages:
+ *   classnames
+ *   react-onclickoutside
+ *   react-tether
+ *   moment-range
+ *   rc-trigger
+ */

@@ -3,13 +3,15 @@
   "version": "1.0.6",
   "description": "",
   "main": "./dist/index.js",
+  "files": [ "dist" ],
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\"",
-    "build": "babel src -d dist --copy-files --no-copy-ignored"
+    "transpile": "babel src -d dist --copy-files --no-copy-ignored"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rezam7596/react-jsonschema-form-generator.git"
+    "url": "https://github.com/rezam7596/tapsi-components.git"
   },
   "keywords": [
     "tapsi",
@@ -20,23 +22,45 @@
     "ui"
   ],
   "license": "MIT",
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "4.0.0-alpha.56",
-    "@material-ui/styles": "^4.10.0",
-    "isomorphic-style-loader": "^4.0.0",
+    "classnames": "^2.2.6",
     "moment-jalaali": "^0.9.2",
+    "moment-range": "^4.0.2",
+    "rc-trigger": "^5.0.8",
+    "react-jsonschema-form": "^1.8.1",
+    "react-onclickoutside": "^6.9.0",
+    "react-tether": "^2.0.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-loader": "^4.0.4",
+    "postcss-normalize": "^9.0.0",
+    "postcss-preset-env": "^6.7.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-jsonschema-form": "^1.8.1"
+    "sass": "^1.27.1",
+    "sass-loader": "^10.0.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.3.1",
+    "webpack-cli": "^4.1.0"
   },
-  "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.11.4",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/preset-env": "^7.11.0",
-    "@babel/preset-react": "^7.10.4"
+  "resolutions": {
+    "**/@babel/runtime": "^7.12.1"
   }
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import { Checkbox as MuiCheckBox, FormControlLabel } from '@material-ui/core';
 import style from './CheckBox.scss';
 import * as constants from './constants';
@@ -30,4 +29,4 @@ CheckBox.defaultProps = {
   disabled: false,
 };
 
-export default withStyles(style)(CheckBox);
+export default CheckBox;

@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { InputAdornment, IconButton, MenuItem } from '@material-ui/core';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
@@ -137,4 +136,4 @@ AutoComplete.defaultProps = {
   helperText: '',
 };
 
-export default withStyles(style)(AutoComplete);
+export default AutoComplete;
