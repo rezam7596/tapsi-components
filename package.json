@@ -1,9 +1,11 @@
 {
   "name": "tapsi-components",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "./dist/index.js",
-  "files": [ "dist" ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\"",
