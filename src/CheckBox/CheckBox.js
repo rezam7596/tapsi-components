@@ -18,7 +18,7 @@ function CheckBox({ label, className, theme, disabled, ...restProps }) {
 CheckBox.propTypes = {
   className: PropTypes.string,
   label: PropTypes.string,
-  theme: PropTypes.oneOf(Object.values(constants.CheckBoxThemes)),
+  theme: PropTypes.oneOf(Object.values(constants.checkBoxThemes)),
   disabled: PropTypes.bool,
 };
 

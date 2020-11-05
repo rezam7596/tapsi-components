@@ -5,7 +5,7 @@ import { InputAdornment, IconButton, MenuItem } from '@material-ui/core';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import ClearIcon from '@material-ui/icons/Clear';
 import TextField from '../TextField';
-import { TextFieldThemes } from '../TextField/constants';
+import { textFieldThemes } from '../TextField/constants';
 import style from './AutoComplete.scss';
 
 function AutoComplete({
@@ -114,7 +114,7 @@ AutoComplete.propTypes = {
   readonly: PropTypes.bool,
   error: PropTypes.bool,
   helperText: PropTypes.string,
-  theme: PropTypes.oneOf(Object.values(TextFieldThemes)),
+  theme: PropTypes.oneOf(Object.values(textFieldThemes)),
 };
 
 AutoComplete.defaultProps = {

@@ -58,7 +58,6 @@ module.exports = {
             'moment-jalaali': 'moment-jalaali',
             'moment-range': 'moment-range',
             'rc-trigger': 'rc-trigger',
-            'react-jsonschema-form': 'react-jsonschema-form',
             'react-onclickoutside': 'react-onclickoutside',
             'react-tether': 'react-tether',
         },

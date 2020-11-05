@@ -5,7 +5,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import ClearIcon from '@material-ui/icons/Clear';
 import style from './TextField.scss';
 import { removeNonNumbers, convertPersianNumberToEnglishNumber } from '../utils';
-import { TextFieldThemes } from './constants';
+import { textFieldThemes } from './constants';
 
 const setValueOfEvent = (event, value) => {
   event.target.value = value;
@@ -129,7 +129,7 @@ TextField.propTypes = {
   helperText: PropTypes.string,
   className: PropTypes.string,
   classes: PropTypes.object,
-  theme: PropTypes.oneOf(Object.values(TextFieldThemes)),
+  theme: PropTypes.oneOf(Object.values(textFieldThemes)),
   loading: PropTypes.bool,
   disabled: PropTypes.bool,
   readonly: PropTypes.bool,
@@ -153,7 +153,7 @@ TextField.defaultProps = {
   helperText: '',
   className: '',
   classes: {},
-  theme: TextFieldThemes.THEME_1,
+  theme: textFieldThemes.THEME_1,
   loading: false,
   disabled: false,
   readonly: false,
